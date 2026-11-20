@@ -16,7 +16,7 @@ copy .env.example .env      # luego edita .env (clave secreta y contraseña de B
 Crear base de datos y usuario en PostgreSQL (psql como superusuario `postgres`):
 
 ```sql
-CREATE USER aboneros WITH PASSWORD 'Andres.Rod71@' CREATEDB;
+CREATE USER aboneros WITH PASSWORD 'tu-contraseña' CREATEDB;
 CREATE DATABASE aboneros OWNER aboneros;
 ```
 
